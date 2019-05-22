@@ -1,0 +1,34 @@
+div {
+    background-color: black;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.title {
+    height: 20px;
+    background-color: red;
+    padding: 20px;
+}
+
+.titleText {
+    float: right;
+    color: white;
+    size: 20px;
+    text-decoration: none;
+}
+
+.leftMargin20 {
+    margin-left: 20px;
+}
+
+
+.bottomIcon{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
