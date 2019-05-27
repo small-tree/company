@@ -6,16 +6,36 @@ div {
 * {
     padding: 0px;
     margin: 0px;
+    list-style: none;
+    color: #424242;
+}
+a {
+    text-decoration: none;
+}
+
+
+.list-item {
+    float: right;
+    margin: 10px 10px;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+}
+.list-item a {
+    font-weight: bold;
+}
+
+.list-item a:hover {
+    color: #ff0000;
 }
 
 
 .title {
-    height: 20px;
     background-color: red;
-    padding: 20px;
 }
 
 .titleText {
+    position: absolute;
     float: right;
     color: white;
     size: 20px;
@@ -27,7 +47,7 @@ div {
 }
 
 
-.bottomIcon{
+.bottomIcon {
     position: fixed;
     right: 50px;
     bottom: 50px;

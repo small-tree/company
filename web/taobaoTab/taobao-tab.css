@@ -1,0 +1,29 @@
+
+
+.taobao-nav::after {
+    content: "11111";
+    clear: both;
+    display: block;
+}
+
+.taobao-nav{
+    list-style: none;
+}
+
+.tab-item {
+    float: left;
+    height: 30px;
+    padding: 0px 10px;
+    line-height: 30px;
+}
+
+.tab-item a {
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.tab-item a:hover {
+    color: white;
+    background: black;
+    border-radius: 15px;
+}

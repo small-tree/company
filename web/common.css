@@ -1,0 +1,10 @@
+.single-line-hinden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    background-image: url(".");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: 100px 100px;
+}
